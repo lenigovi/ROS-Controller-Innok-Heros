@@ -1,4 +1,4 @@
-# ROS-Innok-Heros-Controller
+# ROS Controller Innok Heros
 
 Description and kinematic control of Innok Heros in ROS environment.
 
