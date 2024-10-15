@@ -2,8 +2,6 @@
 
 Description and kinematic control of Innok Heros in ROS environment.
 
-<br>
-
 ### URDF Description
 The mechanical description of the robot is saved as a [.world file](https://github.com/lenigovi/ROS-Innok-Heros-Controller/blob/main/Innok_Heros_Description/worlds/innok_heros.world) and ready to use.
 
@@ -13,3 +11,5 @@ The mechanical description of the robot is saved as a [.world file](https://gith
 
 https://github.com/user-attachments/assets/b5473f47-8d80-4cb0-a7ed-7c1ce631c13d
 
+
+### Controller

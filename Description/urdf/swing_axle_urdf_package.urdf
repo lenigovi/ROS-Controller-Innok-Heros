@@ -96,6 +96,15 @@
       effort="0"
       velocity="0" />
   </joint>
+  <transmission name="swing_axle_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="swing_axle_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+    <joint name="swing_axle_joint">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
   <link
     name="caster_left">
     <inertial>
@@ -152,6 +161,15 @@
       effort="0"
       velocity="0" />
   </joint>
+  <transmission name="caster_left_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="caster_left_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+    <joint name="caster_left_joint">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
   <link
     name="caster_right" />
   <joint
@@ -170,4 +188,13 @@
       effort="0"
       velocity="0" />
   </joint>
+  <transmission name="caster_right_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <actuator name="caster_right_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+    <joint name="caster_right_joint">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
 </robot>
