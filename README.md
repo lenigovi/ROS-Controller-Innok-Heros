@@ -34,7 +34,7 @@ This will install some ROS Indigo libraries such as Rviz, Gazebo, RQT, and Innok
 
 Launch the environment:
 
-    roslaunch innok_heros_gazebo innok_heros_gazebo.launch
+    roslaunch innok_heros_gazebo innok_heros_gazebo.launch world:=innok_heros
 
 
 
